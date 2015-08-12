@@ -11,6 +11,13 @@ class User(object):
         self.UserName = None
         self.PassWord = None
 
+    def do(self):
+        pass
+
+
+def do():
+    print "abc"
+    pass
 
 url = "http://wx.qlogo.cn/mmopen/KvibB8WtVs64FbBVOe5GnanmmoHN95fPNuU9gFYZrrg96McdOxJUlYnPXAPYm6qice9YH4OsujZTPkzKX3CiawSzKLQ8DpoVQng/132"
 req = urllib2.urlopen(url)
@@ -19,3 +26,6 @@ while True:
     chunk = req.read(CHUNK)
     if not chunk: break
     print chunk.encode("base64")
+
+
+do()
