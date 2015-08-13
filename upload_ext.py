@@ -8,9 +8,11 @@ import urllib2
 class Base(object):
     def __init__(self):
         print "Base"
-
+    def do(self):
+        pass
     def console(self):
-        print "print"
+        self.do()
+        self.do()
 
 class User(Base):
     def __init__(self):
@@ -21,7 +23,7 @@ class User(Base):
         print "User"
 
     def do(self):
-        pass
+        print "dodododod"
 
 
 def do():
