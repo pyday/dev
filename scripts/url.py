@@ -35,7 +35,7 @@ if __name__ == '__main__':
         for i in range(255):
             def target():
                 current = i
-                url = "59.18.46.%d" % current
+                url = "x.x.x.%d" % current
                 p = pingIp(url)
 
                 if p:
