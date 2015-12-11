@@ -15,7 +15,7 @@ writer.writeheader()
 
 ips = []
 for i in range(1, 255):
-    url = "59.18.46.%d" % i
+    url = "x.x.x.%d" % i
     ips.append(url)
 
 # some global vars
